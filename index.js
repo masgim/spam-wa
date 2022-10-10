@@ -70,7 +70,7 @@ async function post(url, data) {
 
 (async () => {
 	const target = await question('Target [diawali dengan 62] : ')
-	const jmlah = await question('Mau berapa? [jangan terlalu banyak, kasihan korban] : ')
+	const jmlah = await question('Jumlah : ')
 
 	let i = 0
 	while (i < jmlah) {
